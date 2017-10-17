@@ -9,3 +9,5 @@ exec java -cp liPGN.jar                                                   \
   -Dstorage.keepOpen=true                                                 \
   -Ddb.pool.max=3                                                         \
   fr.tedoldi.lichess.game.retriever.main $*
+java -jar liPGN.jar [options]                                             \
+java -jar liPGN.jar -u loukas435 --variant standard --speed classical,blitz \
