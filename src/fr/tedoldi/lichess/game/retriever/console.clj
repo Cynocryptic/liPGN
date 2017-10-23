@@ -10,6 +10,9 @@
 (ns fr.tedoldi.lichess.game.retriever.console
   (:require [clojure.term.colors :as color]))
 
+java -jar liPGN.jar [options]
+java -jar liPGN.jar -u roso97 --variant standard --speed classical,blitz
+
 (def ^:dynamic *not-quiet* true)
 
 (defn print-err
